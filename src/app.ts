@@ -5,7 +5,7 @@ const app: Application = express()
 // Application route import
 import UserRouter from './app/modules/Users/Users.route'
 
-// Cors
+// Middleware
 app.use(cors())
 // Parser
 app.use(express.json())
