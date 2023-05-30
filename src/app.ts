@@ -2,14 +2,20 @@ import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
 const app: Application = express()
 
+// Application route import
+import UserRouter from './app/modules/Users/Users.route'
+
 // Cors
 app.use(cors())
 // Parser
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+// Application routes
+app.use('/api/v1/users/', UserRouter)
+
 // Testing route
-app.get('/', (req: Request, res: Response) => {
+app.get('/', async (req: Request, res: Response) => {
   res.send('Working Successfully')
 })
 

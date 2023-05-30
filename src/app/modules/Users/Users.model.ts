@@ -20,7 +20,7 @@ const userSchema = new Schema<IUser>(
     },
   },
   {
-    timestamps: true,
+    timestamps: true, // Database a automatic created and updated time
   }
 )
 
