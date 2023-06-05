@@ -1,4 +1,4 @@
-import { User } from "./User.model";
+import { User } from './User.model';
 
 // Get last user id from database
 export const findLastUserId = async () => {
@@ -10,8 +10,8 @@ export const findLastUserId = async () => {
 
 // Generate user id
 export const generateUserId = async () => {
-  const currentId = (await findLastUserId()) || (0).toString().padStart(5, "0");
+  const currentId = (await findLastUserId()) || (0).toString().padStart(5, '0');
   // increment id by 1
-  const incrementId = (parseInt(currentId) + 1).toString().padStart(5, "0");
+  const incrementId = (parseInt(currentId) + 1).toString().padStart(5, '0');
   return incrementId;
 };

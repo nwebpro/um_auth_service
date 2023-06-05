@@ -1,0 +1,24 @@
+Mon Jun 05 2023 22:02:01 GMT+0600 (Bangladesh Standard Time) 22:2:1 [University Management] error: Global Error Handler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+Mon Jun 05 2023 22:31:04 GMT+0600 (Bangladesh Standard Time) 22:31:4 [University Management] error: Global Error Handler [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
