@@ -1,0 +1,4 @@
+Mon Jun 05 2023 20:35:04 GMT+0600 (Bangladesh Standard Time) 20:35:4 [University Management] error: Global Error Handler x is not defined
+Mon Jun 05 2023 20:55:30 GMT+0600 (Bangladesh Standard Time) 20:55:30 [University Management] error: Global Error Handler ApiError is not defined
+Mon Jun 05 2023 20:56:02 GMT+0600 (Bangladesh Standard Time) 20:56:2 [University Management] error: Global Error Handler User validation failed: role: Path `role` is required.
+Mon Jun 05 2023 20:56:03 GMT+0600 (Bangladesh Standard Time) 20:56:3 [University Management] error: Global Error Handler User validation failed: role: Path `role` is required.

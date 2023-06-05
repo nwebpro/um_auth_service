@@ -1,8 +1,8 @@
 import config from "../../../config/index";
 import ApiError from "../../../errors/ApiErrors";
-import { IUser } from "./Users.interface";
-import { User } from "./Users.model";
-import { generateUserId } from "./Users.utils";
+import { IUser } from "./User.interface";
+import { User } from "./User.model";
+import { generateUserId } from "./User.utils";
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
   // Automatic generated incremental id create korte hobe
@@ -20,6 +20,6 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
   return createdUser;
 };
 
-export default {
+export const UserService = {
   createUser,
 };
