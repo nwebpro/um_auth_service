@@ -1,8 +1,8 @@
-import config from "../../../config/index";
-import ApiError from "../../../errors/ApiErrors";
-import { IUser } from "./User.interface";
-import { User } from "./User.model";
-import { generateUserId } from "./User.utils";
+import config from '../../../config/index';
+import ApiError from '../../../errors/ApiErrors';
+import { IUser } from './User.interface';
+import { User } from './User.model';
+import { generateUserId } from './User.utils';
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
   // Automatic generated incremental id create korte hobe
@@ -15,7 +15,7 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
 
   const createdUser = await User.create(user);
   if (!createUser) {
-    throw new ApiError(400, "Field to creating user");
+    throw new ApiError(400, 'Field to creating user');
   }
   return createdUser;
 };
