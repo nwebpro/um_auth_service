@@ -1,0 +1,312 @@
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:24:29.092Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:24:29.121Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:31:37.000Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:31:37.039Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:31:55.388Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:31:55.405Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:32:36.979Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:32:37.050Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:32:41.499Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:32:41.517Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:32:51.661Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:32:51.680Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:03.661Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:03.690Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:07.711Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:07.728Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:14.097Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:14.115Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:26.433Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:33:26.456Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:35:27.921Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:35:27.938Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:35:47.018Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:35:47.116Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:16.370Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:16.387Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:22.750Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:22.773Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:37.223Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:37.241Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:55.443Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:36:55.472Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:37:07.541Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:37:07.556Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:37:22.866Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:37:22.895Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:37:35.196Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:37:35.212Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:38:50.470Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:38:50.489Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:39:32.896Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:39:32.925Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:39:38.269Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:39:38.292Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:40:08.253Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:40:08.276Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:40:21.376Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:40:21.394Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:45:10.263Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:45:10.281Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:45:14.903Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-03T17:45:14.926Z'
+}
