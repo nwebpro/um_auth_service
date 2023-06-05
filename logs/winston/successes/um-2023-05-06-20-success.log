@@ -1,0 +1,706 @@
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:06.054Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:06.092Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:30.161Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:30.182Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:40.271Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:40.292Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:56.265Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:12:56.306Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:09.125Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:09.145Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:23.686Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:23.708Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:31.535Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:31.567Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:44.508Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:14:44.529Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:15:43.365Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:15:43.385Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:16:12.206Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:16:12.245Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:16:39.421Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:16:39.440Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:17:19.103Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:17:19.123Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:17:29.997Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:17:30.020Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:11.317Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:11.334Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:22.574Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:22.595Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:37.129Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:37.144Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:51.598Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:51.618Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:57.508Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:18:57.532Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:09.499Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:09.521Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:32.270Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:32.314Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:53.297Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:53.317Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:57.522Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:19:57.563Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:32.173Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:32.211Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:39.650Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:39.675Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:44.706Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:44.736Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:56.252Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:20:56.282Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:03.206Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:03.226Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:17.739Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:17.771Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:45.299Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:45.317Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:50.821Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:50.840Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:56.004Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:21:56.021Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:22:06.585Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:22:06.615Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:22:35.553Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:22:35.578Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:23:36.542Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:24:15.553Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:24:15.567Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:24:49.332Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:24:49.364Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:25:09.514Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:25:09.538Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:25:33.838Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:25:33.860Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:25:57.962Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:25:57.984Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:26:37.321Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:26:37.345Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:27:35.997Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:27:36.019Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:27:41.153Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:27:41.223Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:27:54.096Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:27:54.113Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:01.342Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:01.391Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:06.167Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:06.189Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:40.255Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:40.289Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:44.391Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:28:44.425Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:29:03.031Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:29:03.070Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:29:12.160Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:29:12.189Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:29:26.633Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:29:26.649Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:30:11.109Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:30:11.127Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:31:02.551Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:31:02.580Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:31:22.951Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:31:22.972Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:33:00.347Z'
+}
+{
+  message: 'Server started at http://localhost:5000',
+  level: 'info',
+  label: 'University Management',
+  timestamp: '2023-06-05T14:33:00.382Z'
+}
+Mon Jun 05 2023 20:33:10 GMT+0600 (Bangladesh Standard Time) 20:33:10 [University Management] info: Database connected
+Mon Jun 05 2023 20:33:10 GMT+0600 (Bangladesh Standard Time) 20:33:10 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:33:55 GMT+0600 (Bangladesh Standard Time) 20:33:55 [University Management] info: Database connected
+Mon Jun 05 2023 20:33:55 GMT+0600 (Bangladesh Standard Time) 20:33:55 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:34:00 GMT+0600 (Bangladesh Standard Time) 20:34:0 [University Management] info: Database connected
+Mon Jun 05 2023 20:34:00 GMT+0600 (Bangladesh Standard Time) 20:34:0 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:34:46 GMT+0600 (Bangladesh Standard Time) 20:34:46 [University Management] info: Database connected
+Mon Jun 05 2023 20:34:46 GMT+0600 (Bangladesh Standard Time) 20:34:46 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:35:04 GMT+0600 (Bangladesh Standard Time) 20:35:4 [University Management] info: Database connected
+Mon Jun 05 2023 20:35:04 GMT+0600 (Bangladesh Standard Time) 20:35:4 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:35:19 GMT+0600 (Bangladesh Standard Time) 20:35:19 [University Management] info: Database connected
+Mon Jun 05 2023 20:35:19 GMT+0600 (Bangladesh Standard Time) 20:35:19 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:35:34 GMT+0600 (Bangladesh Standard Time) 20:35:34 [University Management] info: Database connected
+Mon Jun 05 2023 20:35:34 GMT+0600 (Bangladesh Standard Time) 20:35:34 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:36:17 GMT+0600 (Bangladesh Standard Time) 20:36:17 [University Management] info: Database connected
+Mon Jun 05 2023 20:36:17 GMT+0600 (Bangladesh Standard Time) 20:36:17 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:38:38 GMT+0600 (Bangladesh Standard Time) 20:38:38 [University Management] info: Database connected
+Mon Jun 05 2023 20:38:38 GMT+0600 (Bangladesh Standard Time) 20:38:38 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:41:15 GMT+0600 (Bangladesh Standard Time) 20:41:15 [University Management] info: Database connected
+Mon Jun 05 2023 20:41:15 GMT+0600 (Bangladesh Standard Time) 20:41:15 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:45:10 GMT+0600 (Bangladesh Standard Time) 20:45:10 [University Management] info: Database connected
+Mon Jun 05 2023 20:45:10 GMT+0600 (Bangladesh Standard Time) 20:45:10 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:45:32 GMT+0600 (Bangladesh Standard Time) 20:45:32 [University Management] info: Database connected
+Mon Jun 05 2023 20:45:32 GMT+0600 (Bangladesh Standard Time) 20:45:32 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:45:47 GMT+0600 (Bangladesh Standard Time) 20:45:47 [University Management] info: Database connected
+Mon Jun 05 2023 20:45:47 GMT+0600 (Bangladesh Standard Time) 20:45:47 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:45:58 GMT+0600 (Bangladesh Standard Time) 20:45:58 [University Management] info: Database connected
+Mon Jun 05 2023 20:45:58 GMT+0600 (Bangladesh Standard Time) 20:45:58 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:46:13 GMT+0600 (Bangladesh Standard Time) 20:46:13 [University Management] info: Database connected
+Mon Jun 05 2023 20:46:13 GMT+0600 (Bangladesh Standard Time) 20:46:13 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:46:33 GMT+0600 (Bangladesh Standard Time) 20:46:33 [University Management] info: Database connected
+Mon Jun 05 2023 20:46:33 GMT+0600 (Bangladesh Standard Time) 20:46:33 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:46:46 GMT+0600 (Bangladesh Standard Time) 20:46:46 [University Management] info: Database connected
+Mon Jun 05 2023 20:46:46 GMT+0600 (Bangladesh Standard Time) 20:46:46 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:46:57 GMT+0600 (Bangladesh Standard Time) 20:46:57 [University Management] info: Database connected
+Mon Jun 05 2023 20:46:57 GMT+0600 (Bangladesh Standard Time) 20:46:57 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:47:08 GMT+0600 (Bangladesh Standard Time) 20:47:8 [University Management] info: Database connected
+Mon Jun 05 2023 20:47:08 GMT+0600 (Bangladesh Standard Time) 20:47:8 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:47:19 GMT+0600 (Bangladesh Standard Time) 20:47:19 [University Management] info: Database connected
+Mon Jun 05 2023 20:47:19 GMT+0600 (Bangladesh Standard Time) 20:47:19 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:48:09 GMT+0600 (Bangladesh Standard Time) 20:48:9 [University Management] info: Database connected
+Mon Jun 05 2023 20:48:09 GMT+0600 (Bangladesh Standard Time) 20:48:9 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:49:45 GMT+0600 (Bangladesh Standard Time) 20:49:45 [University Management] info: Database connected
+Mon Jun 05 2023 20:49:45 GMT+0600 (Bangladesh Standard Time) 20:49:45 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:49:55 GMT+0600 (Bangladesh Standard Time) 20:49:55 [University Management] info: Database connected
+Mon Jun 05 2023 20:49:55 GMT+0600 (Bangladesh Standard Time) 20:49:55 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:50:22 GMT+0600 (Bangladesh Standard Time) 20:50:22 [University Management] info: Database connected
+Mon Jun 05 2023 20:50:22 GMT+0600 (Bangladesh Standard Time) 20:50:22 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:50:29 GMT+0600 (Bangladesh Standard Time) 20:50:29 [University Management] info: Database connected
+Mon Jun 05 2023 20:50:29 GMT+0600 (Bangladesh Standard Time) 20:50:29 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:50:58 GMT+0600 (Bangladesh Standard Time) 20:50:58 [University Management] info: Database connected
+Mon Jun 05 2023 20:50:58 GMT+0600 (Bangladesh Standard Time) 20:50:58 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:52:11 GMT+0600 (Bangladesh Standard Time) 20:52:11 [University Management] info: Database connected
+Mon Jun 05 2023 20:52:11 GMT+0600 (Bangladesh Standard Time) 20:52:11 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:53:54 GMT+0600 (Bangladesh Standard Time) 20:53:54 [University Management] info: Database connected
+Mon Jun 05 2023 20:53:54 GMT+0600 (Bangladesh Standard Time) 20:53:54 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:55:30 GMT+0600 (Bangladesh Standard Time) 20:55:30 [University Management] info: Database connected
+Mon Jun 05 2023 20:55:30 GMT+0600 (Bangladesh Standard Time) 20:55:30 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:55:55 GMT+0600 (Bangladesh Standard Time) 20:55:55 [University Management] info: Database connected
+Mon Jun 05 2023 20:55:55 GMT+0600 (Bangladesh Standard Time) 20:55:55 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:57:45 GMT+0600 (Bangladesh Standard Time) 20:57:45 [University Management] info: Database connected
+Mon Jun 05 2023 20:57:45 GMT+0600 (Bangladesh Standard Time) 20:57:45 [University Management] info: Server started at http://localhost:5000
+Mon Jun 05 2023 20:59:51 GMT+0600 (Bangladesh Standard Time) 20:59:51 [University Management] info: Database connected
+Mon Jun 05 2023 20:59:51 GMT+0600 (Bangladesh Standard Time) 20:59:51 [University Management] info: Server started at http://localhost:5000

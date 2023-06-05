@@ -1,23 +1,23 @@
-import { NextFunction, Request, Response } from "express";
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-console */
+import { ErrorRequestHandler } from "express";
 import config from "../../config/index";
 import { IGenericErrorMessage } from "../../interfaces/error";
 import handleValidationError from "../../errors/handleValidationError";
 import ApiError from "../../errors/ApiErrors";
-import { error } from "winston";
-import { Error } from "mongoose";
+import { errorLogger } from "../../shared/logger";
 
-const globalErrorHandler = (
-  err,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  config.env === "development"
+    ? console.log("Global Error Handler", error)
+    : errorLogger.error("Global Error Handler", error);
+
   let statusCode = 500;
   let message = "Something went wrong";
   let errorMessages: IGenericErrorMessage[] = [];
 
-  if (err?.name === "ValidationError") {
-    const simplifiedErrors = handleValidationError(err);
+  if (error?.name === "ValidationError") {
+    const simplifiedErrors = handleValidationError(error);
     statusCode = simplifiedErrors.statusCode;
     message = simplifiedErrors.message;
     errorMessages = simplifiedErrors.errorMessages;
@@ -48,7 +48,7 @@ const globalErrorHandler = (
     success: false,
     message,
     errorMessages,
-    stack: config.env !== "production" ? err.stack : undefined,
+    stack: config.env !== "production" ? error.stack : undefined,
   });
   next();
 };
