@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
 import { ErrorRequestHandler } from 'express';
@@ -8,6 +10,7 @@ import ApiError from '../../errors/ApiErrors';
 import { errorLogger } from '../../shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
+import handleCastError from '../../errors/handleCastError';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
@@ -25,6 +28,11 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     errorMessages = simplifiedErrors.errorMessages;
   } else if (error instanceof ZodError) {
     const simplifiedErrors = handleZodError(error);
+    statusCode = simplifiedErrors.statusCode;
+    message = simplifiedErrors.message;
+    errorMessages = simplifiedErrors.errorMessages;
+  } else if (error?.name === 'CastError') {
+    const simplifiedErrors = handleCastError(error);
     statusCode = simplifiedErrors.statusCode;
     message = simplifiedErrors.message;
     errorMessages = simplifiedErrors.errorMessages;
@@ -57,7 +65,6 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     errorMessages,
     stack: config.env !== 'production' ? error.stack : undefined,
   });
-  next();
 };
 
 export default globalErrorHandler;

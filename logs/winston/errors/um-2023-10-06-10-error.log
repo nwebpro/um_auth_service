@@ -1,0 +1,16 @@
+Sat Jun 10 2023 10:09:44 GMT+0600 (Bangladesh Standard Time) 10:9:44 [University Management] error: Global Error Handler [
+  {
+    "received": "04",
+    "code": "invalid_enum_value",
+    "options": [
+      "01",
+      "02",
+      "03"
+    ],
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Invalid enum value. Expected '01' | '02' | '03', received '04'"
+  }
+]

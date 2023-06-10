@@ -17,9 +17,13 @@ export type IAcademicSemesterMonths =
 export type IAcademicSemesterTitles = 'Autumn' | 'Summer' | 'Fall';
 export type IAcademicSemesterCodes = '01' | '02' | '03';
 
+export interface IAcademicSemesterFilter {
+  searchTerm: string;
+}
+
 export interface IAcademicSemester {
   title: IAcademicSemesterTitles;
-  year: number;
+  year: string;
   code: IAcademicSemesterCodes;
   startMonth: IAcademicSemesterMonths;
   endMonth: IAcademicSemesterMonths;
