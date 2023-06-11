@@ -11,9 +11,9 @@ import { paginationFields } from '../../../constants/pagination';
 // Create Academic Faculty
 const createFaculty = catchAsync(async (req: Request, res: Response) => {
   // Body Response
-  const { ...academicSemesterData } = req.body;
+  const { ...academicFacultyData } = req.body;
   const result = await AcademicFacultyService.createFaculty(
-    academicSemesterData
+    academicFacultyData
   );
   sendResponse<IAcademicFaculty>(res, {
     statusCode: httpStatus.OK,

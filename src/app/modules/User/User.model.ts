@@ -19,6 +19,9 @@ const userSchema = new Schema<IUser>(
   },
   {
     timestamps: true, // Database a automatic created and updated time
+    toJSON: {
+      virtuals: true,
+    },
   }
 );
 
