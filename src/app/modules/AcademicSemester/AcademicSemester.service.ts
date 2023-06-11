@@ -73,7 +73,7 @@ const getAllSemesters = async (
   };
 };
 
-// Get Single Semster
+// Get Single Semester
 const getSingleSemester = async (
   id: string
 ): Promise<IAcademicSemester | null> => {
