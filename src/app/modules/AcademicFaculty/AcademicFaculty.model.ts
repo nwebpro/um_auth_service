@@ -20,7 +20,7 @@ const academicFacultySchema = new Schema(
   }
 );
 
-export const AcademicSemester = model<IAcademicFaculty, AcademicFacultyModel>(
+export const AcademicFaculty = model<IAcademicFaculty, AcademicFacultyModel>(
   'AcademicFaculty',
   academicFacultySchema
 );
