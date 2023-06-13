@@ -1,16 +1,5 @@
-import { BloodGroupList, GenderTypeList } from './Student.interface';
-
-export const gender: GenderTypeList[] = ['male', 'female'];
-export const bloodGroup: BloodGroupList[] = [
-  'A+',
-  'A-',
-  'B+',
-  'B-',
-  'AB+',
-  'AB-',
-  'O+',
-  'O-',
-];
+export const gender = ['male', 'female'];
+export const bloodGroup = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'];
 
 export const studentSearchableFields = [
   'id',

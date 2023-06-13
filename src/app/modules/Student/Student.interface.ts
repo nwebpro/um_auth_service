@@ -26,22 +26,10 @@ export interface LocalGuardian {
   address: string;
 }
 
-export type BloodGroupList =
-  | 'A+'
-  | 'A-'
-  | 'B+'
-  | 'B-'
-  | 'O+'
-  | 'O-'
-  | 'AB+'
-  | 'AB-';
-
-export type GenderTypeList = 'male' | 'female';
-
 export interface IStudentFilters {
   searchTerm?: string;
   id?: string;
-  bloodGroup?: BloodGroupList;
+  bloodGroup?: string;
   email?: string;
   contactNo?: string;
   emergencyContactNo?: string;
@@ -49,20 +37,20 @@ export interface IStudentFilters {
 
 export interface IStudent {
   id: string | undefined;
-  name: UserName;
-  gender: GenderTypeList;
+  name: UserName; // embedded object
+  gender: 'male' | 'female';
   dateOfBirth: string;
   email: string;
   contactNo: string;
   emergencyContactNo: string;
-  bloodGroup?: BloodGroupList;
+  bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'O+' | 'O-' | 'AB+' | 'AB-';
   presentAddress: string;
   permanentAddress: string;
-  guardian: Guardian;
-  localGuardian: LocalGuardian;
-  academicSemester: Types.ObjectId | IAcademicSemester;
-  academicDepartment: Types.ObjectId | IAcademicDepartment;
-  academicFaculty: Types.ObjectId | IAcademicFaculty;
+  guardian: Guardian; // embedded object
+  localGuardian: LocalGuardian; // embedded object
+  academicSemester: Types.ObjectId | IAcademicSemester; // reference field
+  academicDepartment: Types.ObjectId | IAcademicDepartment; // reference field
+  academicFaculty: Types.ObjectId | IAcademicFaculty; // reference field
   profileImage: string;
 }
 
