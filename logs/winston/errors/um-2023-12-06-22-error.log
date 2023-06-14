@@ -1,0 +1,6 @@
+Mon Jun 12 2023 22:28:36 GMT+0600 (Bangladesh Standard Time) 22:28:36 [University Management] error: Global Error Handler User validation failed: password: Path `password` is required., role: Path `role` is required.
+Mon Jun 12 2023 22:35:22 GMT+0600 (Bangladesh Standard Time) 22:35:22 [University Management] error: Global Error Handler User validation failed: password: Path `password` is required., role: Path `role` is required.
+Mon Jun 12 2023 22:38:55 GMT+0600 (Bangladesh Standard Time) 22:38:55 [University Management] error: Global Error Handler User validation failed: password: Path `password` is required., role: Path `role` is required.
+Mon Jun 12 2023 22:40:33 GMT+0600 (Bangladesh Standard Time) 22:40:33 [University Management] error: Global Error Handler E11000 duplicate key error collection: university-management.users index: id_1 dup key: { id: "240300005" }
+Mon Jun 12 2023 22:47:52 GMT+0600 (Bangladesh Standard Time) 22:47:52 [University Management] error: Global Error Handler User validation failed: password: Path `password` is required., role: Path `role` is required.
+Mon Jun 12 2023 22:55:10 GMT+0600 (Bangladesh Standard Time) 22:55:10 [University Management] error: Global Error Handler User validation failed: password: Path `password` is required., role: Path `role` is required.

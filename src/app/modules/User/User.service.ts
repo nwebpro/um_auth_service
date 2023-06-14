@@ -1,25 +1,87 @@
+import { generateStudentId } from './User.utils';
 import config from '../../../config/index';
 import ApiError from '../../../errors/ApiErrors';
+import { AcademicSemester } from '../AcademicSemester/AcademicSemester.model';
+import { IStudent } from '../Student/Student.interface';
 import { IUser } from './User.interface';
 import { User } from './User.model';
-import { generateUserId } from './User.utils';
+import mongoose from 'mongoose';
+import httpStatus from 'http-status';
+import { Student } from '../Student/Student.model';
 
-const createUser = async (user: IUser): Promise<IUser | null> => {
-  // Automatic generated incremental id create korte hobe
-  const id = await generateUserId();
-  user.id = id;
-  // default password set korte hobe
+const createStudent = async (
+  student: IStudent,
+  user: IUser
+): Promise<IUser | null> => {
+  // default password
   if (!user.password) {
-    user.password = config.default_user_password as string; // default password set in .env file
+    user.password = config.default_student_password as string; // default password set in .env file
   }
 
-  const createdUser = await User.create(user);
-  if (!createUser) {
-    throw new ApiError(400, 'Field to creating user');
+  // define student role
+  user.role = 'student';
+
+  //  Get Academic Semester data
+  const academicSemester = await AcademicSemester.findById(
+    student.academicSemester
+  );
+
+  let newUserAllData = null;
+
+  //   start session
+  const session = await mongoose.startSession();
+  try {
+    // Start Transaction
+    session.startTransaction();
+    //  Generate Student ID
+    const id = await generateStudentId(academicSemester);
+    user.id = id;
+    student.id = id;
+    //  Create Student
+    const newStudent = await Student.create([student], { session });
+    if (!newStudent.length) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Field to create student');
+    }
+    // set student _id into user.student
+    user.student = newStudent[0]._id;
+    // Create User
+    const newUser = await User.create([user], { session });
+    if (!newUser.length) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Field to create user');
+    }
+    newUserAllData = newUser[0];
+    // Commit Transaction
+    await session.commitTransaction();
+    // End Session
+    await session.endSession();
+  } catch (error) {
+    // Rollback Transaction / Abort Transaction
+    await session.abortTransaction();
+    // End Session
+    await session.endSession();
+    throw error;
   }
-  return createdUser;
+
+  //   populate student data with reference field
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'student',
+      populate: [
+        {
+          path: 'academicSemester',
+        },
+        {
+          path: 'academicFaculty',
+        },
+        {
+          path: 'academicDepartment',
+        },
+      ],
+    });
+  }
+  return newUserAllData;
 };
 
 export const UserService = {
-  createUser,
+  createStudent,
 };

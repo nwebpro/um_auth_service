@@ -1,0 +1,14 @@
+Wed Jun 14 2023 19:30:18 GMT+0600 (Bangladesh Standard Time) 19:30:18 [University Management] error: Global Error Handler [
+  {
+    "validation": "email",
+    "code": "invalid_string",
+    "message": "Invalid email",
+    "path": [
+      "body",
+      "student",
+      "email"
+    ]
+  }
+]
+Wed Jun 14 2023 19:54:38 GMT+0600 (Bangladesh Standard Time) 19:54:38 [University Management] error: Global Error Handler Student does not exist
+Wed Jun 14 2023 19:55:14 GMT+0600 (Bangladesh Standard Time) 19:55:14 [University Management] error: Global Error Handler Plan executor error during findAndModify :: caused by :: Cannot create field '0' in element {bloodGroup: "O+"}
