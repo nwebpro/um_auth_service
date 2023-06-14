@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { bloodGroup, gender } from '../Student/Student.constant';
 
-// Request body validation
+// Student Request body validation
 const createUserZodSchema = z.object({
   body: z.object({
     password: z.string().optional(),

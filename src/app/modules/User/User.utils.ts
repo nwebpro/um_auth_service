@@ -36,7 +36,7 @@ export const findLastFacultyId = async () => {
 // Generate Faculty Id
 export const generateFacultyId = async (): Promise<string | undefined> => {
   const currentId =
-    (await findLastStudentId()) || (0).toString().padStart(5, '0');
+    (await findLastFacultyId()) || (0).toString().padStart(5, '0');
   // increment id by 1
   let incrementId = (parseInt(currentId) + 1).toString().padStart(5, '0');
   incrementId = `F-${incrementId}`;
