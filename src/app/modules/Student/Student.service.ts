@@ -109,6 +109,7 @@ const updateStudent = async (
         localGuardian[key as keyof typeof localGuardian];
     });
   }
+
   const result = await Student.findOneAndUpdate({ id }, updatedStudentData, {
     new: true,
   });

@@ -1,14 +1,15 @@
 import { IAcademicSemester } from '../AcademicSemester/AcademicSemester.interface';
 import { User } from './User.model';
 
-// Get last Student id from database
+/* ==============================
+* Get last Student id from database
+================================= */
 export const findLastStudentId = async () => {
   const lastStudent = await User.findOne({ role: 'student' }, { id: 1, _id: 0 })
     .sort({ createdAt: -1 })
     .lean();
   return lastStudent?.id ? lastStudent?.id.substring(4) : undefined;
 };
-
 // Generate Student Id
 export const generateStudentId = async (
   academicSemester: IAcademicSemester | null
@@ -23,14 +24,15 @@ export const generateStudentId = async (
   return incrementId;
 };
 
-// Get last Faculty id from database
+/* ==============================
+* Get last Faculty id from database
+================================= */
 export const findLastFacultyId = async () => {
   const lastFaculty = await User.findOne({ role: 'faculty' }, { id: 1, _id: 0 })
     .sort({ createdAt: -1 })
     .lean();
   return lastFaculty?.id ? lastFaculty?.id.substring(2) : undefined;
 };
-
 // Generate Faculty Id
 export const generateFacultyId = async (): Promise<string | undefined> => {
   const currentId =
