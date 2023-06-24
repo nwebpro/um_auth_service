@@ -8,13 +8,13 @@ const router = express.Router();
 
 router.post(
   '/create-student',
-  RequestValidation(UserValidation.createUserZodSchema),
+  RequestValidation(UserValidation.createStudentZodSchema),
   UserController.createStudent
 );
 
 router.post(
   '/create-faculty',
-  RequestValidation(FacultyValidation.createFacultyZodSchema),
+  RequestValidation(FacultyValidation.updateFacultyZodSchema),
   UserController.createFaculty
 );
 
