@@ -1,0 +1,1 @@
+Mon Jun 26 2023 22:00:17 GMT+0600 (Bangladesh Standard Time) 22:0:17 [University Management] error: Global Error Handler Cast to ObjectId failed for value "{ id: 'A-00002' }" (type Object) at path "_id" for model "Admin"
