@@ -4,7 +4,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { IManagementDepartment } from './ManagementDepartment.interface';
 import httpStatus from 'http-status';
 import pick from '../../../shared/pick';
-import { managementDepartmentFilterableFields } from './ManagementDepartment.constant';
+import { managementDepartmentFilterableFields } from './ManagementDepartment.constants';
 import { paginationFields } from '../../../constants/pagination';
 import { ManagementDepartmentService } from './ManagementDepartment.service';
 

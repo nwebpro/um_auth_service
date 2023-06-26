@@ -1,4 +1,8 @@
-import { generateFacultyId, generateStudentId } from './User.utils';
+import {
+  generateAdminId,
+  generateFacultyId,
+  generateStudentId,
+} from './User.utils';
 import config from '../../../config/index';
 import ApiError from '../../../errors/ApiErrors';
 import { AcademicSemester } from '../AcademicSemester/AcademicSemester.model';
@@ -10,6 +14,8 @@ import httpStatus from 'http-status';
 import { Student } from '../Student/Student.model';
 import { IFaculty } from '../Faculty/Faculty.interface';
 import { Faculty } from '../Faculty/Faculty.model';
+import { IAdmin } from '../Admin/Admin.interface';
+import { Admin } from '../Admin/Admin.model';
 
 // Create Student
 const createStudent = async (
@@ -92,10 +98,10 @@ const createFaculty = async (
 ): Promise<IUser | null> => {
   // default password
   if (!user.password) {
-    user.password = config.default_student_password as string; // default password set in .env file
+    user.password = config.default_faculty_password as string; // default password set in .env file
   }
 
-  // define student role
+  // define Faculty role
   user.role = 'faculty';
 
   let newUserAllData = null;
@@ -151,7 +157,71 @@ const createFaculty = async (
   return newUserAllData;
 };
 
+// Create Admin
+const createAdmin = async (
+  admin: IAdmin,
+  user: IUser
+): Promise<IUser | null> => {
+  // default password
+  if (!user.password) {
+    user.password = config.default_admin_password as string; // default password set in .env file
+  }
+
+  // define Admin role
+  user.role = 'admin';
+
+  let newUserAllData = null;
+
+  //   start session
+  const session = await mongoose.startSession();
+  try {
+    // Start Transaction
+    session.startTransaction();
+    //  Generate Admin ID
+    const id = await generateAdminId();
+    user.id = id;
+    admin.id = id;
+    //  Create Admin
+    const newAdmin = await Admin.create([admin], { session });
+    if (!newAdmin.length) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Field to create Admin');
+    }
+    // set student _id into user.student
+    user.admin = newAdmin[0]._id;
+    // Create User
+    const newUser = await User.create([user], { session });
+    if (!newUser.length) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Field to create user');
+    }
+    newUserAllData = newUser[0];
+    // Commit Transaction
+    await session.commitTransaction();
+    // End Session
+    await session.endSession();
+  } catch (error) {
+    // Rollback Transaction / Abort Transaction
+    await session.abortTransaction();
+    // End Session
+    await session.endSession();
+    throw error;
+  }
+
+  //   populate Faculty data with reference field
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'admin',
+      populate: [
+        {
+          path: 'managementDepartment',
+        },
+      ],
+    });
+  }
+  return newUserAllData;
+};
+
 export const UserService = {
   createStudent,
   createFaculty,
+  createAdmin,
 };
