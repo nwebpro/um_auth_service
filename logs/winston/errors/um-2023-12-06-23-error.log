@@ -1,3 +1,0 @@
-Mon Jun 12 2023 23:01:25 GMT+0600 (Bangladesh Standard Time) 23:1:25 [University Management] error: Global Error Handler User validation failed: password: Path `password` is required., role: Path `role` is required.
-Mon Jun 12 2023 23:16:29 GMT+0600 (Bangladesh Standard Time) 23:16:29 [University Management] error: Global Error Handler Unexpected token " in JSON at position 0
-Mon Jun 12 2023 23:17:03 GMT+0600 (Bangladesh Standard Time) 23:17:3 [University Management] error: Global Error Handler Unexpected token " in JSON at position 0

@@ -16,6 +16,7 @@ import { IFaculty } from '../Faculty/Faculty.interface';
 import { Faculty } from '../Faculty/Faculty.model';
 import { IAdmin } from '../Admin/Admin.interface';
 import { Admin } from '../Admin/Admin.model';
+import bcrypt from 'bcrypt';
 
 // Create Student
 const createStudent = async (
@@ -26,6 +27,12 @@ const createStudent = async (
   if (!user.password) {
     user.password = config.default_student_password as string; // default password set in .env file
   }
+
+  //   password hashing with bcrypt
+  user.password = await bcrypt.hash(
+    user.password,
+    Number(config.bcrypt_salt_rounds)
+  );
 
   // define student role
   user.role = 'student';
@@ -101,6 +108,12 @@ const createFaculty = async (
     user.password = config.default_faculty_password as string; // default password set in .env file
   }
 
+  //   password hashing with bcrypt
+  user.password = await bcrypt.hash(
+    user.password,
+    Number(config.bcrypt_salt_rounds)
+  );
+
   // define Faculty role
   user.role = 'faculty';
 
@@ -166,6 +179,12 @@ const createAdmin = async (
   if (!user.password) {
     user.password = config.default_admin_password as string; // default password set in .env file
   }
+
+  //   password hashing with bcrypt
+  user.password = await bcrypt.hash(
+    user.password,
+    Number(config.bcrypt_salt_rounds)
+  );
 
   // define Admin role
   user.role = 'admin';

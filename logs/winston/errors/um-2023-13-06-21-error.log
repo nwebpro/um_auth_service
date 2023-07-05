@@ -1,2 +1,0 @@
-Tue Jun 13 2023 21:54:15 GMT+0600 (Bangladesh Standard Time) 21:54:15 [University Management] error: Global Error Handler Cast to ObjectId failed for value "240300001" (type string) at path "_id" for model "Student"
-Tue Jun 13 2023 21:58:55 GMT+0600 (Bangladesh Standard Time) 21:58:55 [University Management] error: Global Error Handler Model.findOneAndUpdate() no longer accepts a callback
