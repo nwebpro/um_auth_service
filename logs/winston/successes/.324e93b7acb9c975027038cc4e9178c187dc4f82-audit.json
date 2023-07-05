@@ -6,56 +6,6 @@
     "auditLog": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\.324e93b7acb9c975027038cc4e9178c187dc4f82-audit.json",
     "files": [
         {
-            "date": 1686586469639,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-12-06-22-success.log",
-            "hash": "57f87b415d2c0b41dda8d49a48d78b629c77ccf15514cf90678d02bfc0866aeb"
-        },
-        {
-            "date": 1686589221679,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-12-06-23-success.log",
-            "hash": "810be00c718e69609bc2a9d42ca747ee54249aad1e239d0e3b7a91209688eef5"
-        },
-        {
-            "date": 1686665749439,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-13-06-20-success.log",
-            "hash": "691cd361c47529dbbf71479b025e2e5e9fdec47ef45c967f0b6ebc80e8480478"
-        },
-        {
-            "date": 1686668429369,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-13-06-21-success.log",
-            "hash": "793e72c523f55f8b7decddf572f577c9cd158d8cedbfdfc1a01e44c170bc3331"
-        },
-        {
-            "date": 1686672049141,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-13-06-22-success.log",
-            "hash": "197649ebe8a81aaed22717c2355d54dd39c8cc33dbd6c55e541dd0754bafd81b"
-        },
-        {
-            "date": 1686676810509,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-13-06-23-success.log",
-            "hash": "4b2554c6191a4cec8acbdabc565262f58f0c47cf8971827426047a95ea9e9087"
-        },
-        {
-            "date": 1686749212148,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-14-06-19-success.log",
-            "hash": "3ce5de6124426194fe9e07d6c9198c02176047cb43c41539ec2b9556b6dff60b"
-        },
-        {
-            "date": 1686751815344,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-14-06-20-success.log",
-            "hash": "edeb7ac3250e7e9b0042d9cfd80649babfe7c7444a918c781ff2c428f835f2d0"
-        },
-        {
-            "date": 1686758880475,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-14-06-22-success.log",
-            "hash": "c4c1f8903fc6842f81421727226ccf5f38b4019ef307a8fd22f2f1a1e2e08b06"
-        },
-        {
-            "date": 1686762337944,
-            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-14-06-23-success.log",
-            "hash": "da0e913f089c3b6a1d06b9db693b7964ed11b6502411a732ff111e42fec9cab9"
-        },
-        {
             "date": 1687623371378,
             "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-24-06-22-success.log",
             "hash": "a41de650ddab29ef88993bff7f76f772009d0bf83c9e03208d2340a5b8152482"
@@ -74,6 +24,16 @@
             "date": 1687795216037,
             "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-26-06-22-success.log",
             "hash": "79d20da8f7564b8834811d257035cdce6f96374e45926619ae01f4576c3874ba"
+        },
+        {
+            "date": 1688564758266,
+            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-05-07-19-success.log",
+            "hash": "1f7cb11dc13033253b281fbdc7c53c8a72d57bd874599497d82099953117e511"
+        },
+        {
+            "date": 1688565635758,
+            "name": "D:\\Next Label\\university-management-auth-service\\logs\\winston\\successes\\um-2023-05-07-20-success.log",
+            "hash": "653e9c4652dcd4946482bc7e6b51eb319ebfa0bdecd0b0a580518d7cdd178e04"
         }
     ],
     "hashType": "sha256"
